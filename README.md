@@ -1,2 +1,22 @@
-# A-Monad-is-Just-a-Monoid-in-the-Category-of-Endofunctors-Cn
-Chinese version of Reddit article "*A monad is a monoid in the category of endofunctors, what's the problem?*"
+# 一个单子（Monad）说白了不过就是自函子范畴上的一个幺半群而已，这有什么好纠结的？
+
+[这篇文章](A-Monad-is-Just-a-Monoid-in-the-Category-of-Endofunctors-Cn.md)是Reddit文章 "[*A monad is a monoid in the category of endofunctors, what's the problem?*]( https://www.reddit.com/r/math/comments/ap25mr/a_monad_is_a_monoid_in_the_category_of/ )" 的中文翻译。
+
+`“一个单子（Monad）说白了不过就是自函子范畴上的一个幺半群而已，这有什么好纠结的？”`，相信这是很多Haskell程序员经常用来装AC的一句行业黑话，有点类似某些地下组织的接头暗语。但是，很多知道这句话的人可能并不是很确切地知道这句话是什么意思，甚至出现了以下的这种对于幺半群的误解（“幺半群”就是群论里的Monoid嘛）：
+
+>自函子说穿了就是把一个范畴映射到自身的函子；
+>
+>自函子范畴说穿了就是从小范畴映射到自身的函子所构成的以自函子为对象以自然变换为态射的范畴；
+>
+>**幺半群说穿了就是只有单个对象的范畴，给定了一个幺半群则可构造出一个仅有单个对象的小范畴使其态射由幺半群的元素给出而合成由幺半群的运算给出**；
+>
+>而单子说穿了就是自函子范畴上的这样一个幺半群。
+>
+>这都不理解么亲？连这种最基本的概念都不理解还学什么编程！ 
+
+本着实事求是服务大众的态度，也为了让Haskell站稳编程语言鄙视链的顶端，我最近查了些范畴论的资料，也恶补了下抽象代数的知识，同时将Reddit上这篇著名的解释Monad的文章翻译成中文，以供更多对Haskell感兴趣的朋友从范畴论地角度更深入地理解Monad~
+
+感谢文章原作者的授权！
+
+
+
